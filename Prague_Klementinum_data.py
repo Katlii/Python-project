@@ -1,3 +1,9 @@
+#The aim of this task is to practice data visualization using the MatPlotLib python library on historical temperature data 
+#measured at the Prague-Klementinum ( https://recodex.mff.cuni.cz/api/v1/uploaded-files/d31299f3-6189-11ea-a595-00505601122b/download ) meteorological station. 
+#Write a program that draws the following graphs:
+
+#_Annual average, minimum and maximum temperatures
+#_Monthly average, minimum and maximum temperatures (for each month averaged over all years)
 
 import matplotlib.pyplot as plt
 import numpy as np
