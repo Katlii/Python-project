@@ -1,4 +1,4 @@
-# Gauss method (direct)
+# Gauss method (direct) without numpy
  
 def gauss(A):
     sgn=1
