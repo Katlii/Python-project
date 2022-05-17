@@ -1,3 +1,13 @@
+#Na mapě chceme najít největší jeskyni (co do počtu políček) a její těžiště: 
+#políčko s průměrnou řádkovou a sloupcovou souřadnicí ze všech políček jeskyně (zaokrouhleno dolů). 
+#Slibujeme, že ve všech testovacích vstupech bude taková jeskyně jednoznačně určena.
+
+#Formát vstupu: Na standardním vstupu je mapa jeskynního systému: 
+#RR řádků po SS znacích. Každý znak popisuje jedno políčko mapy: . pro volné políčko, # pro skálu.
+
+#Formát výstupu: Vypište jeden řádek se třemi čísly oddělenými mezerou: 
+#počet políček v největší jeskyni, řádkovou souřadnici těžiště a sloupcovou souřadnici těžiště (políčko (0,0)(0,0) je vlevo nahoře).
+
 import sys
 from typing import List
 a =[]
