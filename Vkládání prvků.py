@@ -1,3 +1,7 @@
+#Na vstupu je zadána vzestupně uspořádaná posloupnost x_1...x_N
+#a čísla y_1...y_M 
+#Zařaďte čísla y_i na správná místa do posloupnosti.
+
 N=int(input())
 R=N
 seznam1=[]
